@@ -1,0 +1,43 @@
+body {
+    background-color: ghostwhite;
+}
+
+div {
+    /*background-color: aqua;*/
+    margin: 10px auto;
+}
+
+label {
+    cursor: pointer;
+}
+
+#container {
+}
+
+.img {
+    margin: 5px;
+    width: 300px;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    color: #c14848;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgba(255,255,255,.2);
+}
+
+.btn:active {
+    background: #722181;
+}
