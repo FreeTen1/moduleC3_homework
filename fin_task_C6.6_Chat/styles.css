@@ -1,0 +1,59 @@
+.body {
+    box-shadow: 0 0 10px 5px #9d9d9d;
+    width: 500px;
+    min-height: 500px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+input {
+    border: solid aqua 5px;
+    padding: 5px;
+    width: 46%;
+}
+
+button {
+    background-color: aqua;
+    border: solid aqua 5px;
+    cursor: pointer;
+    padding: 5px;
+    width: 24%;
+}
+
+.chat {
+    margin-top: 10px;
+    border: solid aqua 5px ;
+    width: 98%;
+    min-height: 500px;
+}
+
+.chat-div {
+    padding: 5px;
+    margin-top: 5px;
+    height: 80px;
+}
+
+.right {
+    border-radius: 10px;
+    min-width: 25%;
+    max-width: 50%;
+    word-wrap: break-word;
+    text-align: center;
+    border: solid aqua 5px;
+    float: right;
+}
+
+.left {
+    border-radius: 10px;
+    min-width: 25%;
+    max-width: 50%;
+    word-wrap: break-word;
+    text-align: center;
+    border: solid aqua 5px;
+    float: left;
+}
+
+a {
+    color: #0040ff;
+    text-decoration: none;
+}
